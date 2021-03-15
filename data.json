@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "tipo": "Cuaderno Auriculares",
+    "precio": 370,
+    "imagen": "./Cuaderno_auris.jpg"
+  },
+  {
+    "id": 2,
+    "tipo": "Cuaderno Microfono",
+    "precio": 340,
+    "imagen": "./Cuaderno_mic.jpg"
+  },
+  {
+    "id": 3,
+    "tipo": "Cuaderno Gato",
+    "precio": 310,
+    "imagen": "./Cuaderno_gatogrande.jpg"
+  },
+  {
+    "id": 4,
+    "tipo": "Cuaderno Verde",
+    "precio": 320,
+    "imagen": "gatoverde.jpg"
+  },
+  {
+    "id": 5,
+    "tipo": "Cuaderno Rosa",
+    "precio": 380,
+    "imagen": "./Cuaderno_gato_rosa.jpg"
+  },
+  {
+    "id": 6,
+    "tipo": "Poster Micrófono",
+    "precio": 450,
+    "imagen": "./posterMic.jpg"
+  },
+  {
+    "id": 7,
+    "tipo": "Poster Auriculares",
+    "precio": 490,
+    "imagen": "./posterAuris.jpg"
+  },
+  {
+    "id": 8,
+    "tipo": "Poster Gato",
+    "precio": 510,
+    "imagen": "./posterGato.jpg"
+  },
+  {
+    "id": 9,
+    "tipo": "Cuaderno Verde + Totebag + Poster Micrófono",
+    "precio": 700,
+    "imagen": "./COMBO1.jpg"
+  },
+  {
+    "id": 10,
+    "tipo": "Cuaderno Rosa + Totebag + Poster Gato",
+    "precio": 750,
+    "imagen": "./COMBO2.jpg"
+  },
+  {
+    "id": 11,
+    "tipo": "Cuaderno Auriculares + Totebag + Poster Gato",
+    "precio": 750,
+    "imagen": "./COMBO3.jpg"
+  },
+  {
+    "id": 12,
+    "tipo": "Cuaderno Auriculares + Totebag + Poster Auriculares",
+    "precio": 750,
+    "imagen": "./COMBO4.jpg"
+  },
+  {
+    "id": 13,
+    "tipo": "Totebag + Poster Auriculares",
+    "precio": 900,
+    "imagen": "./COMBO5.jpg"
+  },
+  {
+    "id": 14,
+    "tipo": "Cuaderno Auriculares + Cuaderno Rosa",
+    "precio": 850,
+    "imagen": "./COMBO6.jpg"
+  }
+]
