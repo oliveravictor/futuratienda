@@ -39,14 +39,6 @@ function mostrarCards(prod) {
   $("#productos").html(totalCards);
 }
 
-function sumar(prod) {
-  carrito.push(prod);
-  localStorage.setItem("carrito", JSON.stringify(carrito));
-  document.getElementById("contador").innerHTML = carrito.length;
-  most();
-  mostrarPrecio();
-}
-
 function borrarProd(index) {
   const newProd = [];
   for (let i = 0; i < carrito.length; i++) {
@@ -61,6 +53,14 @@ function borrarProd(index) {
   out();
   mostrarPrecio();
   mostrarProductos();
+}
+
+function sumar(prod) {
+  carrito.push(prod);
+  localStorage.setItem("carrito", JSON.stringify(carrito));
+  document.getElementById("contador").innerHTML = carrito.length;
+  most();
+  mostrarPrecio();
 }
 
 mostrarProductos();
@@ -132,3 +132,5 @@ function out() {
     text: "Quitaste un producto, ¿estás seguro?",
   });
 }
+
+document.write("null");
