@@ -82,5 +82,11 @@
     "tipo": "Cuaderno Auriculares + Cuaderno Rosa",
     "precio": 850,
     "imagen": "./COMBO6.jpg"
-  }
+  },
+  {
+    "id": 15,
+    "tipo": "Totebags",
+    "precio": 650,
+    "imagen": "./totebags.jpg"
+  }  
 ]

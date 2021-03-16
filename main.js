@@ -21,7 +21,7 @@ function mostrarCards(prod) {
   let totalCards = "";
   for (i = 0; i < prod.length; i++) {
     totalCards += `
-    <div class="cardsIndex">
+       <div class="cardsIndex">
        <div class="card" style="width: 400px">
       <img src="${prod[i].imagen}" class="card-img-top" />
         <div class="card-body">
@@ -29,11 +29,11 @@ function mostrarCards(prod) {
               <p class="card-text"><h5>$${prod[i].precio}</h5></p>
           <button href="#!" class="btn btn-primary" onclick='sumar(${JSON.stringify(
             prod[i]
-          )})'>  🛒 Agregar</button>
-         
-             </div>
-         </div>
-      `;
+          )})'>🛒 Agregar</button>
+        </div>
+      </div>
+     </div>  
+    `;
   }
   //document.getElementById("productos").innerHTML = totalCards;
   $("#productos").html(totalCards);
@@ -50,7 +50,6 @@ function borrarProd(index) {
   localStorage.setItem("carrito", JSON.stringify(newProd));
   carrito = newProd;
   document.getElementById("contador").innerHTML = carrito.length;
-  out();
   mostrarPrecio();
   mostrarProductos();
 }
@@ -75,7 +74,7 @@ function mostrarProductos() {
       <h4 class="precio">$${carrito[i].precio}</h4>
       <button  onclick='borrarProd("${i}")' class="btn btn-primary btnQuitar"
       >Eliminar</button>
-      <button onclick='borrarProd("${carrito[i].id}")' class="btn btn-primary btnQuitar"><a class="btn-primary btnQuitar" href="compra.html">Comprar</a></button>
+      <button class="btn btn-primary btnQuitar"><a class="btn-primary btnQuitar" href="compra.html">Comprar</a></button>
     </div>
       `;
   }
@@ -125,12 +124,10 @@ function most() {
   Swal.fire("¡Espectacular!", "Agregaste un producto a tu carrito!", "success");
 }
 
-function out() {
-  Swal.fire({
-    icon: "question",
-    title: "Uh :(",
-    text: "Quitaste un producto, ¿estás seguro?",
-  });
-}
-
-document.write("null");
+// function out() {
+//   Swal.fire({
+//     icon: "question",
+//     title: "Uh :(",
+//     text: "Quitaste un producto, ¿estás seguro?",
+//   });
+// }
